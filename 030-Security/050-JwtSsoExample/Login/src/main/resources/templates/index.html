@@ -1,0 +1,137 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+	<title>Spring Security JWT Example</title>
+	<script type="text/javascript" src="./webjars/angularjs/1.7.5/angular.js"></script>
+	<script type="text/javascript">
+		var app = angular.module("app", []);
+		app	.controller("appController",function($scope, $http){
+			
+			// submit functoin
+			$scope.submit = function(){
+				console.log("logging login form");
+				console.log($scope.loginForm);
+				$http.post("./auth", $scope.loginForm).then(
+					function(response, status,headers){
+						console.log("logging authentication success response");
+						console.log(response);
+						alert("Authenticated Response" + JSON.stringify(response.data));
+						var authorizationHeader = response.headers("Authorization");
+						console.log(authorizationHeader);
+						$scope.authorizationHeader = authorizationHeader;
+					},
+					function(response){
+						console.log("logging authentication failed response");
+						console.log(response);
+						alert("Authenticated Failed!");
+					}
+				);
+			};
+			
+			// accessWithoutJwtToken
+			$scope.accessWithoutJwtToken = function(){
+				$http.post("./access", $scope.loginForm).then(
+					function(response, status,headers){
+						console.log("logging success response");
+						console.log(response);
+						alert("Response" + JSON.stringify(response.data));
+					},
+					function(response){
+						console.log("logging failed response");
+						console.log(response);
+						alert("failed call from access");
+					}
+				);
+			}
+			
+			// accessWithJwtToken
+			$scope.accessWithJwtToken = function(){
+				$http.post("./access", $scope.loginForm, {
+					headers : {
+						Authorization: $scope.authorizationHeader
+					}
+				}).then(
+					function(response, status,headers){
+						console.log("logging success response");
+						console.log(response);
+						alert("Response" + JSON.stringify(response.data));
+					},
+					function(response){
+						console.log("logging failed response");
+						console.log(response);
+						alert("failed call from access");
+					}
+				);
+			}
+			
+			// accessWithoutJwtToken
+			$scope.accessOtherAppWithoutJwtToken = function(){
+				$http.post("/test1/test", $scope.loginForm).then(
+					function(response, status,headers){
+						console.log("logging success response");
+						console.log(response);
+						alert("Response" + JSON.stringify(response.data));
+					},
+					function(response){
+						console.log("logging failed response");
+						console.log(response);
+						alert("failed call from access");
+					}
+				);
+			}
+			
+			// accessWithJwtToken
+			$scope.accessOtherAppWithJwtToken = function(){
+				$http.post("/test1/test", $scope.loginForm, {
+					headers : {
+						Authorization: $scope.authorizationHeader
+					}
+				}).then(
+					function(response, status,headers){
+						console.log("logging success response");
+						console.log(response);
+						alert("Response" + JSON.stringify(response.data));
+					},
+					function(response){
+						console.log("logging failed response");
+						console.log(response);
+						alert("failed call from access");
+					}
+				);
+			}
+			
+
+		});
+	</script>
+</head>
+<body ng-app="app" ng-controller="appController">
+	<h1>Spring Security JWT Example</h1>
+	<form ng-submit="submit()">
+		<table>
+			<tr>
+				<td><span>User Name: </span></td>
+				<td><input type="text" ng-model="loginForm.username"/></td>
+			</tr>
+			<tr>
+				<td><span>Password: </span></td>
+				<td><input type="text" ng-model="loginForm.password"/></td>
+			</tr>
+			<tr colspan="2">
+				<td><button type="submit" >Submit</button></td>
+			</tr>
+		</table>
+	</form>
+	
+	<div>
+		Authorization Header: {{authorizationHeader}}
+	</div>
+	
+	<div>
+		<button type="button" ng-click="accessWithoutJwtToken()">Access without JWT Token</button>
+		<button type="button" ng-click="accessWithJwtToken()">Access with JWT Token</button>
+		
+		<button type="button" ng-click="accessOtherAppWithoutJwtToken()">Access Other App without JWT Token</button>
+		<button type="button" ng-click="accessOtherAppWithJwtToken()">Access Other App with JWT Token</button>
+	</div>
+</body>
+</html>
