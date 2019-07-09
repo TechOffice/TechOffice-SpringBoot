@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script src="webjars/angularjs/1.7.7/angular.min.js"></script>
+        <script>
+            var app = angular.module('app', []);
+            app.controller('appController', function($scope, $window){
+
+                $scope.appName = "Github OAuth Application Example";
+                $scope.getGithubOauthAuthorizeUrl = function(){
+                    var githubOauthAuthorizeBaseUrl = "https://github.com/login/oauth/authorize";
+                    var clientId = "2049f225422b053f5980";
+                    var url = githubOauthAuthorizeBaseUrl + "?client_id=" + clientId;
+                    return url;
+                };
+                $scope.redirectToGithubAuthorizationPage = function(){
+                  $window.location.href = $scope.getGithubOauthAuthorizeUrl();
+                };
+
+            });
+        </script>
+    </head>
+    <body>
+        <div ng-app="app" ng-controller="appController">
+            <h1>{{appName}}</h1>
+            <button ng-click="redirectToGithubAuthorizationPage()">
+                Redirect to Github Authorization Page
+            </button>
+        </div>
+    </body>
+</html>
