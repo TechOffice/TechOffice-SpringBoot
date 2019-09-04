@@ -10,8 +10,8 @@ security:
     client:
       clientId: client
       clientSecret: secret
-      accessTokenUri: https://localhost:8080/oauth/token
-      userAuthorizationUri: https://localhost:8080/oauth/authorize
+      accessTokenUri: http://localhost:8080/oauth/token
+      userAuthorizationUri: http://localhost:8080/oauth/authorize
       clientAuthenticationScheme: form
       preEstablishedRedirectUri:
       useCurrentUri: false
