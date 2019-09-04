@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class ApplController {
 
     @RequestMapping("/")
+    @ResponseBody
     String home() {
         return "index";
     }

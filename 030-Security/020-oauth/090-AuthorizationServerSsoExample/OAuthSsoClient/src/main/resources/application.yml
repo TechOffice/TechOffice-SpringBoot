@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8081
 
 spring:
   thymeleaf:
@@ -8,13 +8,12 @@ spring:
 security:
   oauth2:
     client:
-      clientId: 2049f225422b053f5980
-      clientSecret: f03aaacddaec4920fd523983c398f15fe3ec9da0
-      accessTokenUri: https://github.com/login/oauth/access_token
-      userAuthorizationUri: https://github.com/login/oauth/authorize
+      clientId: client
+      clientSecret: secret
+      accessTokenUri: https://localhost:8080/oauth/token
+      userAuthorizationUri: https://localhost:8080/oauth/authorize
       clientAuthenticationScheme: form
       preEstablishedRedirectUri:
       useCurrentUri: false
     resource:
-      userInfoUri: https://api.github.com/user
-
+        userInfoUri: https://api.github.com/user
