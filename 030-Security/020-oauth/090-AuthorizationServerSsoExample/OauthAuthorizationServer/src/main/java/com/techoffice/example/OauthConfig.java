@@ -39,7 +39,6 @@ public class OauthConfig extends AuthorizationServerConfigurerAdapter {
     public void configure(AuthorizationServerEndpointsConfigurer endpoints)
             throws Exception {
         endpoints.authenticationManager(authenticationManager);
-//        endpoints.
     }
 
 
