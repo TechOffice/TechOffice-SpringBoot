@@ -1,9 +1,12 @@
 server:
   port: 8081
+  servlet.session.cookie.name : SPRINGJSESSIONID
 
 spring:
   thymeleaf:
     cache: false
+
+logging.level.root: TRACE
 
 security:
   oauth2:
@@ -12,8 +15,12 @@ security:
       clientSecret: secret
       accessTokenUri: http://localhost:8080/oauth/token
       userAuthorizationUri: http://localhost:8080/oauth/authorize
+      tokenName: oauth_token
+      authenticationScheme: form
       clientAuthenticationScheme: form
       preEstablishedRedirectUri:
-      useCurrentUri: false
+      useCurrentUri: true
+    sso:
+      loginPath: /login
     resource:
-        userInfoUri: https://api.github.com/user
+      token-info-uri: http://localhost:8080/oauth/check_token
