@@ -1,0 +1,24 @@
+<html>
+<head>
+    <script src="webjars/jquery/3.1.0/jquery.min.js"></script>
+    <script src="webjars/angularjs/1.4.9/angular.min.js"></script>
+    <script src="webjars/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.min.js"></script>
+
+    <title>Insert title here</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <div ng-app="app" ng-controller="testController">
+        <input ng-model="test"/>
+        <input uib-datepicker-popup="yyyy/MM/dd" ng-model="t"/>
+        <button type="button" class="btn btn-default" ng-click="open2()"><i class="glyphicon glyphicon-calendar"></i></button>
+
+    </div>
+    <script>
+        var app = angular.module('app', ['ui.bootstrap']);
+        app.controller('testController', function($scope){
+            $scope.test= "abc";
+        });
+    </script>
+</body>
+</html>

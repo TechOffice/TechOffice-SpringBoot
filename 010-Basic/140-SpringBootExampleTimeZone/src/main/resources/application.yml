@@ -1,0 +1,7 @@
+server.port : 19000
+
+spring:
+  jackson:
+    time-zone: UTC
+    date-format: yyyy-MM-dd'T'HH:mm:ss.SSS'Z'
+
