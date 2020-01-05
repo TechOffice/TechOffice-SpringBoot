@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
-class Appl {
+public class Appl {
 
 	@Bean
 	public RestTemplate restTemplate() {
