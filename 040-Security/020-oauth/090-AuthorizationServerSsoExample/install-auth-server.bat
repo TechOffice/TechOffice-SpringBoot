@@ -1,0 +1,1 @@
+mvn install -f ./OauthAuthorizationServer

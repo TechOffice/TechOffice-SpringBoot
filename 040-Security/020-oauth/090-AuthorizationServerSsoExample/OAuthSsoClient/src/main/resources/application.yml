@@ -6,7 +6,7 @@ spring:
   thymeleaf:
     cache: false
 
-logging.level.root: TRACE
+logging.level.root: INFO
 
 security:
   oauth2:

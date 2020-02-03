@@ -1,4 +1,4 @@
 server:
   port: 8080
 
-logging.level.root: TRACE
+logging.level.root: INFO

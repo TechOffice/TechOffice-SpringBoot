@@ -9,7 +9,7 @@
 	</parent>
 	
 	<groupId>com.techoffice.example</groupId>
-	<artifactId>SpringbootExample</artifactId>
+	<artifactId>auth-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<dependencies>
 		<dependency>
