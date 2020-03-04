@@ -9,8 +9,15 @@ public class Test1Service {
     @Autowired
     private Test2Service test2Service;
 
-    public String returnFromTest2Service(){
-        String result = test2Service.returnTestingString();
-        return result;
+    public String returnFromTest2Service() {
+        return test2Service.returnTestingString();
+    }
+
+    public String returnFromPrivateMethod(){
+        return privateMethod();
+    }
+
+    private String privateMethod() {
+        return "private value";
     }
 }

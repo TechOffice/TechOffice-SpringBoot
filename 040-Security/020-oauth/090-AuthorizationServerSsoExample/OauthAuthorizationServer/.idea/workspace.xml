@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5de85300-f4e1-4643-9990-a9bc2913423b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../060-Test/030-PowerMockExample/src/main/java/com/techoffice/util/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../060-Test/030-PowerMockExample/src/test/java/test/techoffice/example/Test2ServiceTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="5de85300-f4e1-4643-9990-a9bc2913423b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +59,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Tech-Boot/AuthServer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../100-AuthorizationServerSsoZuulExample/OAuthSsoClient" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -114,10 +111,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1583111559351">
+    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1583285848019">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1583111559351" />
+    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1583285848019" />
   </component>
   <component name="masterDetails">
     <states>

@@ -18,8 +18,7 @@ public class Test2Service {
     public String returnTestingString() {
         try {
             Date date = DateUtil.getCurrentDate();
-            SimpleDateFormat simpleDateFormat = new SimpleDateFormat("YYYY/mm/dd");
-            simpleDateFormat.parse("2020/02/25");
+            SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy/MM/dd");
             return simpleDateFormat.format(date);
         } catch (Exception e){
             log.error(e.getMessage(), e);
