@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59342583-3229-48d0-b79c-22630cb1c97c" name="Default Changelist" comment="" />
+    <list default="true" id="59342583-3229-48d0-b79c-22630cb1c97c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../060-Test/030-PowerMockExample/src/main/java/com/techoffice/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../060-Test/030-PowerMockExample/src/test/java/test/techoffice/example/Test2ServiceTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,17 +37,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="420" />
-    <option name="y" value="36" />
-    <option name="width" value="1890" />
-    <option name="height" value="960" />
-  </component>
+  <component name="ProjectId" id="1YYF6GcW3y9UO0K3QS0ncdViSRK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../010-Basic/140-SpringBootExampleTimeZone" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
