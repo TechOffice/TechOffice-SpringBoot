@@ -1,4 +1,0 @@
-server:
-  port: 19000
-
-logging.level.root: INFO

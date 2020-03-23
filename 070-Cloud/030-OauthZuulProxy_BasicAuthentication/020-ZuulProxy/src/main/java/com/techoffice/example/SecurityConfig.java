@@ -14,11 +14,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.antMatcher("/**")
-            .authorizeRequests()
-            .antMatchers("/", "/login", "/login**", "/favicon.ico")
-            .permitAll()
-            .anyRequest()
-            .authenticated();
+                .authorizeRequests()
+                .antMatchers("/", "/auth/**", "/auth/*/**", "/oauth/**", "/oauth/*/**", "/login", "/login**", "/favicon.ico", "/actuator/**")
+                .permitAll()
+                .anyRequest()
+                .authenticated()
+                .and().csrf().disable() ;
     }
 
 }

@@ -1,8 +1,0 @@
-server:
-  port: 8080
-
-zuul:
-  routes:
-    client:
-      sensitiveHeaders:
-      url: http://localhost:19000
