@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a823ebe-8c77-467e-af7c-97395f6aaa63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../040-Security/020-oauth/100-AuthorizationServerSsoZuulExample/OAuthSsoClient/src/main/java/com/techoffice/example/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../040-Security/020-oauth/100-AuthorizationServerSsoZuulExample/OAuthSsoClient/src/main/java/com/techoffice/example/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../040-Messaging/010-ActiveMq/020-SimpleServerClientExample/ClientExample/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../040-Messaging/010-ActiveMq/020-SimpleServerClientExample/ClientExample/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../040-Messaging/010-ActiveMq/020-SimpleServerClientExample/ClientExample/src/main/java/com/techoffice/SpringBootMqClientAppl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../040-Messaging/010-ActiveMq/020-SimpleServerClientExample/ClientExample/src/main/java/com/techoffice/MqClientApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../040-Messaging/010-ActiveMq/020-SimpleServerClientExample/ServerExample/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../040-Messaging/010-ActiveMq/020-SimpleServerClientExample/ServerExample/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../040-Messaging/010-ActiveMq/020-SimpleServerClientExample/ServerExample/src/main/java/com/techoffice/SpringBootMqServerAppl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../040-Messaging/010-ActiveMq/020-SimpleServerClientExample/ServerExample/src/main/java/com/techoffice/ActiveMqServerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../040-Messaging/010-ActiveMq/020-SimpleServerClientExample/ServerExample/src/main/resources/applicaiton.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../040-Messaging/010-ActiveMq/020-SimpleServerClientExample/ServerExample/src/main/resources/applicaiton.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +43,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../020-ZuulProxy" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -99,42 +103,42 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="399" height="448" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1584950822442" />
-    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1583456013523">
+    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1585705664495">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1583456013523" />
-    <state width="1237" height="226" key="GridCell.Tab.0.bottom" timestamp="1584951430465">
+    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1585705664495" />
+    <state width="1237" height="226" key="GridCell.Tab.0.bottom" timestamp="1585710148997">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="226" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584951430465" />
-    <state width="1237" height="226" key="GridCell.Tab.0.center" timestamp="1584951430465">
+    <state width="1237" height="226" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585710148997" />
+    <state width="1237" height="226" key="GridCell.Tab.0.center" timestamp="1585710148997">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="226" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584951430465" />
-    <state width="1237" height="226" key="GridCell.Tab.0.left" timestamp="1584951430465">
+    <state width="1237" height="226" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585710148997" />
+    <state width="1237" height="226" key="GridCell.Tab.0.left" timestamp="1585710148997">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="226" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584951430465" />
-    <state width="1237" height="226" key="GridCell.Tab.0.right" timestamp="1584951430465">
+    <state width="1237" height="226" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585710148997" />
+    <state width="1237" height="226" key="GridCell.Tab.0.right" timestamp="1585710148997">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="226" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584951430465" />
-    <state width="1237" height="226" key="GridCell.Tab.1.bottom" timestamp="1584951430465">
+    <state width="1237" height="226" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585710148997" />
+    <state width="1237" height="226" key="GridCell.Tab.1.bottom" timestamp="1585710148998">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="226" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584951430465" />
-    <state width="1237" height="226" key="GridCell.Tab.1.center" timestamp="1584951430465">
+    <state width="1237" height="226" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585710148998" />
+    <state width="1237" height="226" key="GridCell.Tab.1.center" timestamp="1585710148998">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="226" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1584951430465" />
-    <state width="1237" height="226" key="GridCell.Tab.1.left" timestamp="1584951430465">
+    <state width="1237" height="226" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1585710148998" />
+    <state width="1237" height="226" key="GridCell.Tab.1.left" timestamp="1585710148997">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="226" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1584951430465" />
-    <state width="1237" height="226" key="GridCell.Tab.1.right" timestamp="1584951430465">
+    <state width="1237" height="226" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1585710148997" />
+    <state width="1237" height="226" key="GridCell.Tab.1.right" timestamp="1585710148998">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="226" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1584951430465" />
+    <state width="1237" height="226" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1585710148998" />
     <state x="148" y="81" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1584951324418">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

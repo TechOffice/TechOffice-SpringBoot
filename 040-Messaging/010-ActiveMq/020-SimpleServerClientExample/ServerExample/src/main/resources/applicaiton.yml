@@ -1,5 +1,20 @@
 server:
   port: 8080
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "hawtio,jolokia"
+    jolokia:
+      enabled: true
+      sensitive: false
+      config:
+        debug: true
+hawtio:
+  authenticationEnabled: false
+
 spring:
   activemq:
     broker-url: tcp://localhost:61616
+
