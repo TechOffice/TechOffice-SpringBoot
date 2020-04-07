@@ -1,5 +1,6 @@
-package com.techoffice.example;
+package com.techoffice.example.config;
 
+import com.techoffice.example.security.custom.CustomEntryPoint;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.annotation.Order;
@@ -35,10 +36,13 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     public void configure(HttpSecurity http) throws Exception {
         http.antMatcher("/**")
                 .authorizeRequests()
+//                .antMatchers("/login**").permitAll()
                 .anyRequest()
                 .authenticated()
-                .and().formLogin()
-                .and().csrf().disable();
+                .and().formLogin().loginPage("/login").permitAll()
+                .and().exceptionHandling().authenticationEntryPoint(new CustomEntryPoint("/login"));
+        http.csrf().disable().cors();
+        http.headers().httpStrictTransportSecurity().disable();
     }
 
 
