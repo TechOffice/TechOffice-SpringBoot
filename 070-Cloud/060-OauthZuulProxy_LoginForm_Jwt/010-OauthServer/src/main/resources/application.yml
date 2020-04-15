@@ -1,9 +1,0 @@
-server:
-  port: 19000
-  servlet.session.cookie.name : SPRINGJSESSIONID
-
-logging:
-  level:
-    root: TRACE
-    org:
-      apache: INFO
