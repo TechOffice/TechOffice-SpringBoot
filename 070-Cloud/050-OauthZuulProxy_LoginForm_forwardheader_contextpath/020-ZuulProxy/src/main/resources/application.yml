@@ -3,7 +3,7 @@ server:
 
 logging:
   level:
-    root: TRACE
+    root: INFO
     org:
       apache: INFO
 
@@ -11,10 +11,10 @@ zuul:
   routes:
     auth:
       sensitiveHeaders:
-      url: http://localhost:19000
-    oauth:
-      sensitiveHeaders:
-      url: http://localhost:19000/oauth
+      url: http://localhost:19000/auth
+    login:
+      path: /login
+  addProxyHeaders: true
 
 security:
   oauth2:

@@ -1,4 +1,4 @@
-package com.techoffice.example;
+package com.techoffice;
 
 import org.springframework.boot.autoconfigure.security.oauth2.client.EnableOAuth2Sso;
 import org.springframework.context.annotation.Bean;
