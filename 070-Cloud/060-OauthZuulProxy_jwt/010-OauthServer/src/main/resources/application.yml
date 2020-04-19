@@ -7,6 +7,6 @@ server:
 
 logging:
   level:
-    root: TRACE
+    root: INFO
     org:
       apache: INFO
