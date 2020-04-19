@@ -1,14 +1,17 @@
-# Spring Boot JSP Example
+JWT Example
 
-<version>4.3.0.RELEASE</version>
+It is an example which would try to use two Authentication Processing Filter, 
+i.e. **JwtUsernamePasswordAuthenticationFilter** and **JwtTokenAuthenticationFilter**, to test with jwt token login
 
-## Prerequisite
-* Maven 3
-* Eclipse Mars 4.5
+## JwtUsernamePasswordAuthenticationFilter
+It would validate the user and password. if success, it would attach jwt token to response header.
 
-## Dependencies
-* Spring Boot 1.4
+## JwtTokenAuthenticationFilter
+It would validate the jwt token.
 
-## Example
+home page: http://localhost:8080/
+user name: user
+password: password
 
-## Spring Boot JSP Integration 
+submit with success
+    
