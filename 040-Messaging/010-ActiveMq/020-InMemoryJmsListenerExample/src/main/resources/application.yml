@@ -1,0 +1,13 @@
+server:
+  port: 8082
+
+spring:
+  activemq:
+    broker-url: vm://embedded?broker.persistent=false,useShutdownHook=false
+    in-memory: true
+
+config:
+  messaging:
+    broker-url: vm://embedded?broker.persistent=false,useShutdownHook=false
+    username:
+    password:

@@ -1,0 +1,1 @@
+java -jar target/authorization-server-0.0.1-SNAPSHOT-exec.jar
