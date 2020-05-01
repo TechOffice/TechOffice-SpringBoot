@@ -6,6 +6,8 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.http.client.fluent.Request;
 import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.message.BasicHeader;
+import org.springframework.security.jwt.Jwt;
+import org.springframework.security.jwt.JwtHelper;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
@@ -44,8 +46,8 @@ public class Application {
         log.info("obtained access token: {}", accessToken);
         String checkedAccessTokenResponse = getCheckedAccessTokenResponse(accessToken);
         log.info("checked access token response: {}", checkedAccessTokenResponse);
-        String result = Verifier.sign(accessToken);
-        System.out.println(result);
+        Jwt jwt = JwtHelper.decode(accessToken);
+        log.info("jwt encoded content: {}", jwt.getClaims());
     }
 
 }
