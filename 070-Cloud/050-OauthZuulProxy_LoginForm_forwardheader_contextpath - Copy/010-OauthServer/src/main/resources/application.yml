@@ -1,0 +1,12 @@
+server:
+  port: 19000
+  servlet.session.cookie.name : SPRINGJSESSIONID
+  use-forward-headers: TRUE
+  servlet:
+    context-path: /auth
+
+logging:
+  level:
+    root: TRACE
+    org:
+      apache: INFO
