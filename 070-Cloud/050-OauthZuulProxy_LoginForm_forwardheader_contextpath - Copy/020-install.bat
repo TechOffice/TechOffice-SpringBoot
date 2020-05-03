@@ -1,1 +1,0 @@
-mvn install -f ./020-ZuulProxy
