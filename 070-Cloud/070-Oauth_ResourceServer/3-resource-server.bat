@@ -1,0 +1,1 @@
+java -jar 020-resourceServer/target/resource-server-0.0.1-SNAPSHOT-exec.jar

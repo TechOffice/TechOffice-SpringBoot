@@ -1,0 +1,8 @@
+server:
+  port: 19000
+
+security:
+  oauth2:
+    resource:
+      jwt:
+        key-value: testing
