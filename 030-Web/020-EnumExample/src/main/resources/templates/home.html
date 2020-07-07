@@ -1,0 +1,49 @@
+<html>
+<head>
+    <script src="webjars/jquery/3.1.0/jquery.min.js"></script>
+    <script src="webjars/angularjs/1.4.9/angular.min.js"></script>
+    <script src="webjars/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.min.js"></script>
+
+    <title>Insert title here</title>
+</head>
+<body>
+<h1>Hello World</h1>
+<div ng-app="app" ng-controller="testController">
+    <button ng-click="passType1ToServer()">pass type1 to server</button>
+    <button ng-click="passTYPE1ToServer()">pass TYPE1 to server</button>
+    <div ng-repeat="log in logs track by $index">
+        {{log}}
+    </div>
+</div>
+<script>
+        var app = angular.module('app', ['ui.bootstrap']);
+        app.controller('testController', function($scope, $http){
+            $scope.logs = [];
+            $http.get("/v0/home/getTestType1").then(function(response){
+                var responseData = response.data;
+                $scope.logs.push(responseData);
+            });
+
+            $scope.passType1ToServer = function(){
+                $http.get("/v0/home/getTestType/type1")
+                    .then(function(response){
+                        var responseData = response.data;
+                        $scope.logs.push(responseData);
+                    }, function(error){
+                        $scope.logs.push('server response status: ' + error.status);
+                    });
+            }
+
+            $scope.passTYPE1ToServer = function(){
+                $http.get("/v0/home/getTestType/TYPE1")
+                    .then(function(response){
+                        var responseData = response.data;
+                        $scope.logs.push(responseData);
+                    }, function(error){
+                        $scope.logs.push('server response status: ' + error.status);
+                    });
+            }
+        });
+    </script>
+</body>
+</html>
