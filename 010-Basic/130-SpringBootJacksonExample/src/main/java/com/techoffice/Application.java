@@ -5,7 +5,6 @@ import com.techoffice.model.ResponseData;
 import com.techoffice.model.ReturnData;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,7 +14,7 @@ import java.util.List;
 
 @RestController
 @EnableAutoConfiguration
-public class SpringBootExampleAppl {
+public class Application {
 	
 	@RequestMapping("/")
     String home() {
@@ -50,6 +49,6 @@ public class SpringBootExampleAppl {
     }
 
 	public static void main(String[] args){
-        SpringApplication.run(SpringBootExampleAppl.class, args);
+        SpringApplication.run(Application.class, args);
 	}
 }

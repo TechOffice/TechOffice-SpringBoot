@@ -5,5 +5,5 @@ import lombok.Data;
 @Data
 public class ResponseData extends BasicData{
 
-    private String address;
+    private transient String taddress;
 }
