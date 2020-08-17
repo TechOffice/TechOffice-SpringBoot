@@ -20,16 +20,132 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0270b8fa-2bc5-460e-a580-76441de7f96d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootExample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootExample.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/techoffice/SpringBootExampleAppl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techoffice/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/techoffice/model/ResponseData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techoffice/model/ResponseData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.factorypath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_8_5_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_assertj_assertj_core_2_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_eclipse_jdt_core_compiler_ecj_4_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_hibernate_hibernate_core_5_0_9_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_0_9_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_hsqldb_hsqldb_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_jboss_jandex_2_0_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_json_json_20140107.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_4_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_4_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_4_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_4_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_1_4_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_4_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_4_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_4_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_4_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_4_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_12_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_10_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_springframework_spring_aop_4_3_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_springframework_spring_beans_4_3_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_springframework_spring_context_4_3_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_springframework_spring_core_4_3_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_springframework_spring_expression_4_3_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_springframework_spring_orm_4_3_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_springframework_spring_test_4_3_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_springframework_spring_tx_4_3_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.settings/.jsdtscope" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.settings/com.ibm.etools.webtools.packagepreferences.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.settings/org.eclipse.wst.common.component" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.settings/org.eclipse.wst.jsdt.ui.superType.container" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.settings/org.eclipse.wst.jsdt.ui.superType.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/.settings/org.jboss.ide.eclipse.as.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/SpringBootJpaExample.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/src/main/java/com/techoffice/example/Appl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/src/main/java/com/techoffice/example/model/Table1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/src/main/java/com/techoffice/example/model/Table2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/src/main/java/com/techoffice/example/repository/Table1Repository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/src/main/resources/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/src/test/java/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/src/test/java/com/techoffice/example/repository/CustomSqlInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/src/test/java/com/techoffice/example/repository/Table1RepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/060-OneToManyExample/src/test/resources/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/070-PropertyExpressionExample/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/070-PropertyExpressionExample/.factorypath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/070-PropertyExpressionExample/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/070-PropertyExpressionExample/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/070-PropertyExpressionExample/.settings/.jsdtscope" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/070-PropertyExpressionExample/.settings/com.ibm.etools.webtools.packagepreferences.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/070-PropertyExpressionExample/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/070-PropertyExpressionExample/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/070-PropertyExpressionExample/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/070-PropertyExpressionExample/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/070-PropertyExpressionExample/.settings/org.eclipse.wst.common.component" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/070-PropertyExpressionExample/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/070-PropertyExpressionExample/.settings/org.eclipse.wst.jsdt.ui.superType.container" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/070-PropertyExpressionExample/.settings/org.eclipse.wst.jsdt.ui.superType.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/070-PropertyExpressionExample/.settings/org.jboss.ide.eclipse.as.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/070-PropertyExpressionExample/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/070-PropertyExpressionExample/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/070-PropertyExpressionExample/src/main/java/com/techoffice/example/Appl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/070-PropertyExpressionExample/src/main/java/com/techoffice/example/controller/SampleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/070-PropertyExpressionExample/src/main/java/com/techoffice/example/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/070-PropertyExpressionExample/src/main/java/com/techoffice/example/repository/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/070-PropertyExpressionExample/src/main/resources/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/070-PropertyExpressionExample/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/070-PropertyExpressionExample/src/main/webapp/WEB-INF/jsp/welcome.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/070-PropertyExpressionExample/src/test/java/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../020-Data/020-Jpa/070-PropertyExpressionExample/src/test/resources/.gitkeep" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,11 +239,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.SpringBootExampleAppl" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -152,6 +263,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="490" y="305" width="460" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1596092854849">
