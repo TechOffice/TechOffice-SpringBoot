@@ -52,6 +52,9 @@ public class SpringBootExampleAppl {
             @Override
             public String call() {
                 log.info("Logging From Backend Thread: {}");
+
+                messagingService.send("Hello World from Http Request Thread (Aysnc)");
+
                 return "completed";
             }
         });
