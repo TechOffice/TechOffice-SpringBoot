@@ -1,0 +1,11 @@
+server:
+  port: 19000
+
+spring:
+    activemq:
+      broker-url: vm://embedded?broker.persistent=false,useShutdownHook=false
+      in-memory: true
+    sleuth:
+      messaging:
+        jms:
+          enabled: true

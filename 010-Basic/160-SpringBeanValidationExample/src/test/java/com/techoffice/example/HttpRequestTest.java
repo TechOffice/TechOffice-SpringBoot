@@ -1,5 +1,6 @@
 package com.techoffice.example;
 
+import com.techoffice.example.model.TestModel;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -39,4 +40,13 @@ public class HttpRequestTest {
         Assert.assertNotEquals(HttpStatus.OK, response.getStatusCode());
     }
 
+    @Test
+    public void echoTestModel_notOk_getterValidaton() {
+        TestModel requestTestModel = new TestModel();
+        requestTestModel.setAddress1("Testing Address");
+        requestTestModel.setAddress2("Testing Address");
+        ResponseEntity<TestModel> response = this.restTemplate.postForEntity(
+                "http://localhost:" + port + "/echoTestModel", requestTestModel, TestModel.class);
+        Assert.assertEquals(HttpStatus.OK, response.getStatusCode());
+    }
 }
