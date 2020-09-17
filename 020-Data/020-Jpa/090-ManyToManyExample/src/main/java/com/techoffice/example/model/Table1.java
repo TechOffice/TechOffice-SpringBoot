@@ -15,17 +15,9 @@ public class Table1 {
 
     private String name;
 
-    @OneToMany(mappedBy = "table1", cascade = {CascadeType.ALL}, orphanRemoval = true)
+    @ManyToMany
+    @JoinTable(name ="mapping_table", inverseJoinColumns = @JoinColumn(name="table2_id"), joinColumns = @JoinColumn(name="table1_id"))
     private List<Table2> table2List;
 
-    @PrePersist
-    @PreUpdate
-    public void updateDependency(){
-        if (this.table2List != null){
-            for (Table2 table2: table2List){
-                table2.setTable1(this);
-            }
-        }
-    }
 
 }
