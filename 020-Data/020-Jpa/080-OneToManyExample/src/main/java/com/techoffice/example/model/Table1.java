@@ -15,17 +15,8 @@ public class Table1 {
 
     private String name;
 
-    @OneToMany(mappedBy = "table1", cascade = {CascadeType.ALL}, orphanRemoval = true)
+    @OneToMany(mappedBy = "table1")
     private List<Table2> table2List;
 
-    @PrePersist
-    @PreUpdate
-    public void updateDependency(){
-        if (this.table2List != null){
-            for (Table2 table2: table2List){
-                table2.setTable1(this);
-            }
-        }
-    }
 
 }
