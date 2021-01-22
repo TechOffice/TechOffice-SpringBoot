@@ -1,2 +1,2 @@
-# Spring Boot Hibernate Example
+# Spring Data Specification Example
 
