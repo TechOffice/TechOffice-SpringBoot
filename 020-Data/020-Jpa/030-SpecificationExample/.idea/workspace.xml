@@ -20,19 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="004a19c8-451a-4d0b-ae74-3dbdd1c3c557" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../040-JoinSpecificationExample/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../040-JoinSpecificationExample/.idea/libraries/Maven__org_hibernate_hibernate_jpamodelgen_5_3_7_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../040-JoinSpecificationExample/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../040-JoinSpecificationExample/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../040-JoinSpecificationExample/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../040-JoinSpecificationExample/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../040-JoinSpecificationExample/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../040-JoinSpecificationExample/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../040-JoinSpecificationExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../040-JoinSpecificationExample/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../040-JoinSpecificationExample/SpringBootHibernateExample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../040-JoinSpecificationExample/SpringBootHibernateExample.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../040-JoinSpecificationExample/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../040-JoinSpecificationExample/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../040-JoinSpecificationExample/src/main/java/com/techoffice/example/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../040-JoinSpecificationExample/src/main/java/com/techoffice/example/service/CustomerService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +106,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="masterDetails">
     <states>

@@ -20,20 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="004a19c8-451a-4d0b-ae74-3dbdd1c3c557" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../030-SpecificationExample/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_jpamodelgen_5_3_7_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../030-SpecificationExample/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../030-SpecificationExample/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../030-SpecificationExample/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../030-SpecificationExample/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../030-SpecificationExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../030-SpecificationExample/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../030-SpecificationExample/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../030-SpecificationExample/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootHibernateExample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootHibernateExample.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/techoffice/example/specs/CustomerSpecs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techoffice/example/specs/CustomerSpecs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/techoffice/example/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techoffice/example/service/CustomerService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +105,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="221" y="66" key="SettingsEditor" timestamp="1611294115640">
