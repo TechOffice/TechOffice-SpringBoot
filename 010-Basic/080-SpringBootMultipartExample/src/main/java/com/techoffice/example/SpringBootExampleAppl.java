@@ -1,13 +1,14 @@
 package com.techoffice.example;
 
 import java.io.File;
-import java.nio.charset.StandardCharsets;
 import java.util.List;
 
-import lombok.Data;
-import org.apache.commons.io.FileUtils;
+import io.swagger.v3.oas.annotations.Parameter;
+import io.swagger.v3.oas.annotations.media.Content;
+import io.swagger.v3.oas.annotations.media.Schema;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -22,6 +23,10 @@ public class SpringBootExampleAppl {
 	
 	@RequestMapping(value = "/api/testMultipart", method = RequestMethod.POST)
 	public Test testMultipart(@RequestPart(value = "files", required = false) List<MultipartFile> files,
+					   @Parameter(name="content",
+							   description = "Testing",
+							   content = @Content(mediaType = MediaType.APPLICATION_JSON_VALUE),
+					    		schema = @Schema(implementation = Test.class, format = "binary", type="string"))
 					   @RequestPart(value = "content", required = false) Test test){
 		try{
 			for (MultipartFile file: files){
